@@ -36,10 +36,5 @@ python zst_to_json.py
 - The script prints a progress message every 10,000 valid lines processed.
 - If no `.zst` files are found in the script directory, the script will print a helpful message and exit.
 
-## Keeping your repo clean
-This repository includes a `.gitignore` that:
-- Prevents committing local environments, caches, logs, private keys, and large data files.
-- Ignores `*.zst` and `*.json` by default to avoid committing large datasets or generated outputs. Remove `*.json` from `.gitignore` if you want to version outputs.
-
 ## License
 Licensed under the Apache License, Version 2.0. See `LICENSE` for details.
